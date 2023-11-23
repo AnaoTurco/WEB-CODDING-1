@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobUnderground</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+    
+<div class="main-login"> 
+    <div class="left-login"> 
+        <h1> FAÇA O SEU LOGIN <br> E ENTRE PARA NOSSO TIME </h1>
+    <img src="carros.svg" class="car" alt="carro">
+    </div>
+    <div class="right-login">
+        <div class="card-login">
+<h1> LOGIN</h1>
+            <div class="textfield">
+                <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" id="login">
+                </div>
+                <div class="textfield">
+                <label for="senha">Senha</label>
+                    <input type="password" name="usuario" placeholder="Senha" id="senha">
+                </div>
+                <button onclick= "logar()" type=submit class="btn-login"> LOGIN </button>
+            </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+function logar(){
+var login = document.getElementById('login').value;
+var senha = document.getElementById ('senha').value;
+
+if(login == "Brian" && senha=="1234"){
+    location.href= "index.html";  
+}
+
+}
+</script>
+
+</body>
+</html>

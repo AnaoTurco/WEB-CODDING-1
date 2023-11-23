@@ -1,0 +1,14 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    align-items: center;
+}
+h1{
+    border-top:3px solid rgb(185, 8, 8);
+    padding-top: 10px;
+}
+  p{
+    font-family: 'Roboto', sans-serif; 
+  }
